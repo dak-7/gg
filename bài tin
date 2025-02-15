@@ -1,0 +1,43 @@
+#bài 1
+a = 0
+k = 2
+while k <= 100:
+    a += k
+    k += 2
+print(a)
+
+#bài 2
+b = 0
+c = str()
+while b <= 100:
+    b += 1
+    c += str(b) + " "
+print(c)
+#bài 3
+d = -2
+e = 3
+while e < 100:
+    d += 3
+    e += 3
+print(d)
+
+#bài 4
+ans = 0
+f = 0
+while f <= 100:
+    if (f % 5 == 0):
+        ans += 1
+    elif (f % 3 == 1):
+        ans += 1
+    f += 1
+print(ans)
+
+#bài 5
+g = 1
+h = str()
+while g <= 100:
+    h += str(g) + " "
+    if (g % 10 == 0):
+        print(h)
+        h = str()
+    g += 1
